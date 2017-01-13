@@ -6,15 +6,21 @@ conan 是一个UI自动化测试的工具，是运行在chrome上的插件，基
 
 Client
 
-    Node version: 6.5.0 Selenium version: 2.53.3
+```
+Node version: 6.5.0 Selenium version: 2.53.3
+```
 
 Extension
 
-    React version: 15.3.2 Webpack version: 1.13.2
+```
+React version: 15.3.2 Webpack version: 1.13.2
+```
 
 Server:
 
-    Express version: 4.2.0 Mongoose version: 4.6.0
+```
+Express version: 4.2.0 Mongoose version: 4.6.0
+```
 
 
 
