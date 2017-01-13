@@ -8,7 +8,9 @@
 
 查看有没有这个目录
 
-    cd /Library/Google/Chrome
+```
+cd /Library/Google/Chrome
+```
 
 如果有，直接在该目录下新建文件夹
 
@@ -22,5 +24,15 @@ sudo mkdir NativeMessagingHosts
 sudo mkdir -p /Library/Google/Chrome/NativeMessagingHosts
 ```
 
+2./var/log/conan的权限不对
 
+解决方法：
+
+先查询当前用户的权限
+
+    who am i
+
+结果如下图所示：
+
+![](/assets/log权限.png)
 
