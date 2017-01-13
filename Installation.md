@@ -56,11 +56,17 @@ brew install git
 
 6.修改conan/client/config/default.json.example的文件名为default.json，打开该文件，检查各个参数配置是否正确，如下图所示；查看/var/log/conan 这个目录是否存在，若不存在，新建一个：
 
-    sudo mkdir -p /var/log/conan
+```
+sudo mkdir -p /var/log/conan
+```
 
 ![](/assets/default.png)
 
-7.在conan目录下，执行
+7.在conan目录下，执行如下命令，该动作可能会持续较长时间，因为需要下载很多的依赖；
 
-    npm run conan
+```
+npm run conan
+```
+
+正常情况下，执行完之后，会在/usr/local/bin/生成对应的conanClient.
 
