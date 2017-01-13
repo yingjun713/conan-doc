@@ -36,11 +36,19 @@ phatomjs       安装方式： 直接解压后将bin下的phantomjs执行文件�
 
 3.从git上clone conan 的项目，git地址：git@git.terminus.io:production/conan.git
 
-    git clone git@git.terminus.io:production/conan.git
+```
+git clone git@git.terminus.io:production/conan.git
+```
 
 若没有安装git，先安装git：
 
-    brew install git
+```
+brew install git
+```
 
-4.
+4.打开clone下来的项目，将conan/extension/build.crx 文件拖到chrome的管理界面[chrome://extensions/ ](chrome://extensions/)，确认打开了develop mode，勾选该插件后的enable，添加成功之后，在浏览器的右上角会有一个插件的图标，如下图所示。最后复制该插件的ID。
+
+![](/assets/extension.png)
+
+5.
 
