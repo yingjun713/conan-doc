@@ -50,5 +50,7 @@ brew install git
 
 ![](/assets/extension.png)
 
-5.
+5.修改conan/com.conan.client.json.example文件名称为com.conan.client.json，打开该文件，用从插件中复制过来的ID，替换该文件中allowed\_origins下chrome-extension 后的内容，如图所示：
+
+![](/assets/client.png)
 
