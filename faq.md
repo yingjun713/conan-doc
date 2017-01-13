@@ -6,14 +6,21 @@
 
 解决方法：
 
-查看有没有这个目录  
+查看有没有这个目录
+
     cd /Library/Google/Chrome
 
 如果有，直接在该目录下新建文件夹
 
-    sudo mkdir NativeMessagingHosts
+```
+sudo mkdir NativeMessagingHosts
+```
 
 如果没有这个目录，直接手动新建这个目录
 
-    sudo mkdir -p /Library/Google/Chrome/NativeMessagingHosts
+```
+sudo mkdir -p /Library/Google/Chrome/NativeMessagingHosts
+```
+
+
 
