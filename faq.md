@@ -30,9 +30,23 @@ sudo mkdir -p /Library/Google/Chrome/NativeMessagingHosts
 
 先查询当前用户的权限
 
-    who am i
+```
+who am i
+```
 
 结果如下图所示：
 
 ![](/assets/log权限.png)
+
+再查当前用户所属的用户组\(账户名例如：sherr\) groups michaelzhao
+
+    groups sherry
+
+结果如下图所示：
+
+![](/assets/q2.png)
+
+再更改/var/log/conan的用户组
+
+    sudo chown -R sherry:staff /var/log/conan
 
