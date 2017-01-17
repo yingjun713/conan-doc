@@ -62,7 +62,7 @@ sudo mkdir -p /var/log/conan
 
 ![](/assets/default.png)
 
-7.在conan目录下，执行如下命令，该动作可能会持续较长时间，因为需要下载很多的依赖；
+7.在conan/client目录下，执行如下命令，该动作可能会持续较长时间，因为需要下载很多的依赖；
 
 ```
 sudo npm run conan
