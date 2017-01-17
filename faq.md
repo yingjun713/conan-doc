@@ -40,7 +40,9 @@ who am i
 
 再查当前用户所属的用户组\(账户名例如：sherr\) groups michaelzhao
 
-    groups sherry
+```
+groups sherry
+```
 
 结果如下图所示：
 
@@ -48,5 +50,11 @@ who am i
 
 再更改/var/log/conan的用户组
 
-    sudo chown -R sherry:staff /var/log/conan
+```
+sudo chown -R sherry:staff /var/log/conan
+```
+
+3.chrome最新版本，安装了conan插件后，关闭浏览器，下次打开后，就会提示conan被禁用，就需要重新安装。
+
+解决方法：
 
