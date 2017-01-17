@@ -70,3 +70,5 @@ sudo npm run conan
 
 正常情况下，执行完之后，会在/usr/local/bin/生成对应的conanClient.
 
+至此为止，conan已经安装结束。
+
